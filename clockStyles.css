@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* Name: Ann Maria Jiji
+   Class: DISM/1A/04
+   Admin No.: 2227522
+*/
+
+
+/* Current Time styles */
+
+div#dateNow {   
+    background-color: transparent;
+    border: hidden;
+    color: rgb(102, 0, 204);
+    text-align: center;                                                    
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    
+}
+
+
+/* Countdown styles */
+
+div#countdownElements{
+    font-size: 1.5em;
+    color:white;
+    text-align: center;
+    text-shadow: 0px 0px 2px black, 0px 0px 4px black, -1px 1px 8px white, 
+                 1px -1px 8px white, -1px 1px 12px white, 1px -1px 12px white;
+     
+} 
+
+
+/* Gradient styles */
+
+div#clockArea{
+    background: linear-gradient( 90deg, rgb(198, 234, 141), rgb(254, 144, 175) );
+}
+
+

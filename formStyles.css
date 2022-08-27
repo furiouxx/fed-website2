@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* Name: Ann Maria Jiji
+   Class: DISM/1A/04
+   Admin No.: 2227522
+*/
+
+
+
+div#visitorInfo{
+    border: 5px solid rgb(26, 26, 255);
+    border-radius: 20px;                                  /* Adding border for forms */
+}
+
+div#thoughts{
+    border: 5px solid rgb(0, 179, 0);
+    border-radius: 20px;
+}

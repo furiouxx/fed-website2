@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* Name: Ann Maria Jiji
+   Class: DISM/1A/04
+   Admin No.: 2227522
+/*
+
+
+
+/* Shadow styles & Filter styles*/
+
+figure#figure1{
+    background-color:rgb(255, 243, 204) ;
+    box-shadow: rgb(242, 242, 242) -10px -10px 30px;  
+   
+    filter: invert(1);                                    /* Filter */
+}
+
+img#SP {
+    box-shadow:rgb(77, 51, 25) 15px 15px 20px;
+    
+    filter:sepia(0.9);                                 /*Filter*/
+}
+
+img#classPic{
+    box-shadow:rgb(77, 51, 25) -15px 15px 20px;
+    
+    filter:grayscale(0.9);                           /*Filter*/
+}
+
+/* Border Styles*/
+
+img#dismLogo{
+    border: 10px double rgb(0, 0, 230) ;
+    border-radius: 145px;
+}
+
+img#daaaLogo{
+    border: 10px double rgb(26, 255, 102);            /* Borders for the course logos */
+    border-radius: 145px;
+}
+
+img#ditLogo{
+    border: 10px double rgb(255, 26, 26);
+    border-radius: 145px;
+}
+
+
+
+
+/* Transformation styles */
+
+img#figure2{
+    transform: rotate(-40deg) 
+              rotateZ(30deg) rotateY(70deg)
+              scale(2, 1.2)
+              translateY(20px);
+}
+
+img#figure3{
+    transform: rotate(40deg) 
+               rotateZ(-30deg) rotateY(70deg)                  /* Transformation of interest, valua and personality png */ 
+               scale(2, 1.2)
+               translate(-15px, 32px);
+}
+
+
+img#figure4{
+    transform: rotate(-40deg) 
+              rotateZ(30deg) rotateY(70deg)
+              scale(2, 1)
+              translateY(-10px);
+}
+
+
+
+
+
+
+
